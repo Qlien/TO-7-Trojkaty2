@@ -46,13 +46,13 @@ public class JUnitTest {
     @Test
     public void is_data_right() {
         Triangle2 t = new Triangle2(17777, 6, 6);
-        assertTrue(t.is_data_right());
+        assertFalse(t.is_data_right());
     }
 
     @Test
     public void is_isosceles_and_data() {
         Triangle2 t = new Triangle2(17777, 6, 6);
-        assertTrue(t.is_data_right());
+        assertFalse(t.is_data_right());
         assertTrue(t.is_isosceles());
     }
 
